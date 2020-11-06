@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start activity"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop service"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_send_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send receiver"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_content_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content provider"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

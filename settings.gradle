@@ -1,0 +1,8 @@
+rootProject.name='PluginTest'
+include ':app'
+include ':pluginapp'
+include ':pluginproxy'
+include ':pluginreplace'
+include ':mytest'
+include ':hostapp'
+include ':proxyapp'
